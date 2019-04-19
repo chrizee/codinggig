@@ -1,0 +1,19 @@
+{
+  "name": "codinggig",
+  "version": "1.0.0",
+  "description": "A simple app to find coding jobs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "okoro efe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "express-validator": "^5.3.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.7.0"
+  }
+}
